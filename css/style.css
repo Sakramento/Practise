@@ -171,10 +171,9 @@ ul {
 
 .main-header__sub-menu .apps-image {
 	display: inline-block;
-  vertical-align: top;
-  height: 64px;
-  width: 64px;
-  background: url('../img/apps-sprite.png') no-repeat;
+  	vertical-align: top;
+  	height: 64px;
+  	width: 64px;
 }
 
 .main-header__sub-menu span,
@@ -574,6 +573,11 @@ main {
 
 @media all and (max-width: 768px) {
 
+	main {
+		padding-top: 100px;
+		padding-bottom: 60px;
+	}
+
 	.search-form {
 		width: 60%;
 	}
@@ -605,7 +609,6 @@ main {
 
 	main {
 		padding-top: 100px;
-		padding-bottom: 60px;
 	}
 
 	.search-form {
@@ -635,6 +638,26 @@ main {
 		right: 5px;
 		margin-left: 0;
 	}
+
+}
+
+@media all and (max-width: 375px) {
+	
+	.main-footer__bar {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+	.main-footer__bar:last-child > li:not(:first-child),
+	.main-footer__bar:first-child > li:not(:first-child) {
+		padding-left: 0;
+	}
+
 
 }
 
