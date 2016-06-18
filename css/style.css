@@ -564,6 +564,12 @@ main {
 }
 
 /*---media-queries---*/
+@media all and (max-width: 1440px) {
+	.search-form {
+		width: 40%;
+	}
+}
+
 
 @media all and (max-width: 1024px) {
 	.search-form {
@@ -658,6 +664,15 @@ main {
 		padding-left: 0;
 	}
 
+
+}
+
+/*---for iPhone4 ---*/
+@media all and (max-width: 480px) and (orientation: landscape) {
+	
+	.main-footer__bar:last-child > li:last-child {
+		padding-left: 0;
+	}
 
 }
 
