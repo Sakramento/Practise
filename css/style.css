@@ -668,10 +668,10 @@ main {
 }
 
 /*---for Kindle Portrait---*/
-@media all and (max-width: 600px) and (orientation: landscape) {
+@media all and (max-width: 600px) and (orientation: portrait) {
 	
 	.search-form {
-		width: 80%;
+		width: 70%;
 	}
 
 }
