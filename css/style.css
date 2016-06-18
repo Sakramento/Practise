@@ -616,7 +616,7 @@ main {
 @media all and (max-width: 480px) and (orientation: landscape) {
 	
 	.search-form {
-		width: 60%;
+		width: 70%;
 	}
 
 	.main-footer__bar:last-child > li:last-child {
