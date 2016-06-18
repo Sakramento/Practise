@@ -607,7 +607,7 @@ main {
 @media all and (max-width: 600px) and (orientation: portrait) {
 	
 	.search-form {
-		width: 70%;
+		width: 80%;
 	}
 
 }
