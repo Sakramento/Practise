@@ -671,7 +671,7 @@ main {
 @media all and (max-width: 600px) and (orientation: landscape) {
 	
 	.search-form {
-		width: 60%;
+		width: 80%;
 	}
 
 }
