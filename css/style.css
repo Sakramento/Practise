@@ -620,7 +620,7 @@ main {
 	}
 	
 	.main-footer__sub-menu {
-		left: -10%;
+		right: 0%;
 	}
 
 	.main-footer__bar:last-child > li:last-child {
