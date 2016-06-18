@@ -78,7 +78,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	linkShowMoreApps.addEventListener('click', function() {
 		showMoreApps();
+		linkShowOtherApps.scrollIntoView({behavior:'smooth'});
 	});
+
 
 	linkShowConfig.addEventListener('click', function(event) {
 
@@ -125,6 +127,12 @@ document.addEventListener("DOMContentLoaded", function() {
 		} else if ( (event.deltaY < 0) && (topUnvisibleMenu > headerSubMenu.offsetHeight) ) {
 			hideMoreApps();
 		}
-	});		
+	});	
+
+	headerSubMenu.addEventListener('scroll', function(event) {
+		if (this.scrollTop == 0) {
+			hideMoreApps();
+		}
+	});	
 	
 });
