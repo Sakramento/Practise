@@ -11,16 +11,16 @@ document.addEventListener("DOMContentLoaded", function() {
 	var dividedLine = document.querySelector('.main-header__sub-menu .divided-line');
 	var triangleHeaderSubMenu = document.querySelector('.sub-menu__triangles');
 
-	// /*-------------------------------preload sprite image-----------------------------------*/
-	// var appsImageContainer = document.querySelectorAll('.main-header__sub-menu .apps-image');
+	/*-------------------------------preload sprite image-----------------------------------*/
+	var appsImageContainer = document.querySelectorAll('.main-header__sub-menu .apps-image');
 
-	// appsSpriteImage = new Image();
-	// appsSpriteImage.src = "img/apps-sprite.png";
+	appsSpriteImage = new Image();
+	appsSpriteImage.src = "img/apps-sprite.png";
 
-	// for (var i = 0, max = appsImageContainer.length; i < max; i++) {
-	// 	appsImageContainer[i].style.backgroundImage = "url(" + appsSpriteImage.src + ")";
-	// }
-	// /*--------------------------------------------------------------------------------------*/
+	for (var i = 0, max = appsImageContainer.length; i < max; i++) {
+		appsImageContainer[i].style.backgroundImage = "url(" + appsSpriteImage.src + ")";
+	}
+	/*--------------------------------------------------------------------------------------*/
 	
 	function hideHeaderSubMenu() {
 		headerSubMenu.classList.remove('active');
