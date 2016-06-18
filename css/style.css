@@ -618,6 +618,10 @@ main {
 	.search-form {
 		width: 80%;
 	}
+	
+	.main-footer__sub-menu {
+		left: -10%;
+	}
 
 	.main-footer__bar:last-child > li:last-child {
 		padding-left: 0;
