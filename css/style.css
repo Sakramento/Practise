@@ -667,6 +667,15 @@ main {
 
 }
 
+/*---for Kindle Portrait---*/
+@media all and (max-width: 600px) and (orientation: landscape) {
+	
+	.search-form {
+		width: 60%;
+	}
+
+}
+
 /*---for iPhone4 ---*/
 @media all and (max-width: 480px) and (orientation: landscape) {
 	
